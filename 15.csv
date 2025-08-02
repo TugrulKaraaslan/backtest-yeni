@@ -1,0 +1,324 @@
+FilterCode;PythonQuery
+T2;(relative_volume > 1.0) and (change_1w_percent < 15.0) and (rsi_14 > 50) and (rsi_14 < 65) and (adx_14 > 30) and (adx_14 < 60) and (stochrsi_k < 20.0) and stochrsi_d_keser_stochrsi_k_asagi
+T3;(relative_volume > 1.5) and (rsi_14 > 50.0) and (momentum_10 > 1.0) and (sma_5 < close) and (sma_10 < close) and (sma_200 < close)
+T5;(relative_volume > 1.3) and (rsi_14 > 55.0) and (ema_5 < close) and (ema_20 < ema_5) and (ema_50 < ema_20) and (cci_20 > 100.0) and (vwma_20 < close) and (ichimoku_conversionline < ichimoku_baseline)
+T6;(relative_volume > 1.7) and (close > bbu_20_2) and (macd_line > macd_signal) and (psar < close) and (stochrsi_k > stochrsi_d)
+T7;(relative_volume < 2.0) and (close > open) and (low < sma_50) and (sma_50 < close) and (stochrsi_k > stochrsi_d)
+T10;(relative_volume > 1.5) and (momentum_10 > 1) and (momentum_10 < 4) and (macd_line > macd_signal) and (psar < close) and (stochrsi_k > stochrsi_d) and (ichimoku_conversionline > ichimoku_baseline) and (ichimoku_baseline < close) and (ichimoku_leadingspana > ichimoku_leadingspanb)
+T11;(relative_volume > 1.3) and (change_1w_percent > 3.0) and (change_1w_percent < 15.0) and (williamspercentr_14 > -100) and (williamspercentr_14 < -70)
+T17;(relative_volume > 1.3) and (change_1w_percent < 15.0) and sma_10_keser_sma_50_yukari
+T18;(relative_volume > 1.5) and (rsi_14 > 30) and (rsi_14 < 80) and (adx_14 > 20.0) and (positivedirectionalindicator_14 > negativedirectionalindicator_14) and (ema_10 < close) and (ema_50 < close) and (ema_200 < close) and (macd_line > macd_signal) and (psar < close) and (mfi_14 > 50.0) and (cmf_20 > 0.2) and (hma_9 < close) and (stochrsi_k > stochrsi_d) and (ichimoku_conversionline < close)
+T19;(change_1w_percent < 15.0) and (open < close) and close_keser_sma_20_yukari and (rsi_14 > 50) and (rsi_14 < 55)
+T20;(relative_volume > 1.3) and (change_1w_percent < 15.0) and close_keser_ichimoku_conversionline_yukari and stochrsi_k_keser_stochrsi_d_yukari
+T21;(relative_volume > 2.0) and sma_5_keser_sma_20_yukari
+T24-20;(relative_volume > 1.5) and (change_1w_percent < 15.0) and close_keser_sma_20_yukari and (macd_line > macd_signal) and (psar < close) and (vwma_20 < close) and (vwap < close)
+T24-50;(relative_volume > 1.5) and (change_1w_percent < 15.0) and close_keser_sma_50_yukari and (macd_line > macd_signal) and (psar < close) and (vwma_20 < close) and (vwap < close)
+T24-100;(relative_volume > 1.5) and (change_1w_percent < 15.0) and close_keser_sma_100_yukari and (macd_line > macd_signal) and (psar < close) and (vwma_20 < close) and (vwap < close)
+T24;(relative_volume > 1.5) and (change_1w_percent < 15.0) and close_keser_sma_200_yukari and (macd_line > macd_signal) and (psar < close) and (vwma_20 < close) and (vwap < close)
+T27;(relative_volume > 1.3) and (change_1w_percent < 10.0) and close_keser_ichimoku_conversionline_yukari and stoch_k_keser_stoch_d_yukari
+T29;(relative_volume > 1.3) and (change_1w_percent < 15.0) and ema_10_keser_ema_20_yukari and (psar < close)
+T31;(relative_volume > 1.3) and (change_1w_percent < 15.0) and positivedirectionalindicator_14_keser_negativedirectionalindicator_14_yukari and (macd_line < macd_signal) and (cmf_20 < 0.0) and (stochrsi_k > stochrsi_d)
+T32;(relative_volume > 1.5) and (change_1w_percent < 15.0) and (ema_5 < close) and (ema_20 < ema_5) and (ema_50 < ema_20) and (macd_line > macd_signal) and psar_keser_close_asagi and (cci_20 > 90.0)
+T34;(relative_volume > 1.3) and (change_1w_percent < 15.0) and (atr_14 < 0.4) and macd_line_keser_macd_signal_yukari
+T36;(relative_volume > 1.3) and (change_1w_percent < 15.0) and ichimoku_conversionline_keser_ichimoku_baseline_yukari and (ichimoku_leadingspana > ichimoku_leadingspanb) and (ichimoku_leadingspanb < close)
+T37;(relative_volume > 1.3) and (change_1w_percent < 15.0) and (stoch_k > stoch_d) and (stoch_d < 50.0) and (macd_line > macd_signal) and (psar < close) and hma_9_keser_sma_20_yukari
+T38;(relative_volume > 2.5) and (rsi_14 > 50.0) and (momentum_10 > 1.0) and (sma_5 < close) and (sma_10 < close) and (sma_200 < close)
+T40;(relative_volume > 1.3) and (change_1w_percent < 15.0) and (close > sma_5) and (sma_10 > sma_20) and macd_line_keser_macd_signal_yukari
+T41;(relative_volume > 1.7) and (change_1w_percent < 10.0) and (ema_5 < close) and (ema_10 < close) and (ema_20 < close) and (ema_30 < close) and (ema_50 < close) and (ema_100 < close) and (ema_200 < close) and (macd_line > macd_signal) and (psar < close) and (vwma_20 < close) and (vwap < close)
+T42;(relative_volume > 1.3) and (change_1w_percent < 15.0) and (close > open) and (close == high) and (stoch_k > stoch_d) and (macd_line > macd_signal)
+T45;(relative_volume > 1.3) and (change_1w_percent < 15.0) and (close > open) and (rsi_14 > 46) and (rsi_14 < 65) and (rsi_7 > 46) and (rsi_7 < 65) and (sma_5 > sma_100) and (hma_9 > low) and (stochrsi_k > stochrsi_d)
+T53;(relative_volume > 1.3) and (change_1w_percent < 15.0) and rsi_14_keser_50p0_yukari
+T57;(relative_volume > 1.5) and (change_1w_percent < 10.0) and williamspercentr_14_keser_eksi80p0_yukari
+T58;(relative_volume > 1.7) and (change_1w_percent < 10.0) and williamspercentr_14_keser_eksi50p0_yukari
+T59;(relative_volume > 18.0) and (change_1w_percent < 15.0) and (adx_14 > 20.0) and (positivedirectionalindicator_14 > negativedirectionalindicator_14) and (sma_200 < sma_50) and (aroonu_14 == 100) and (aroond_14 < aroonu_14) and (psar < close) and (cmf_20 > 0.0) and (hma_9 < close) and (ichimoku_baseline < ichimoku_conversionline) and (macd_line > macd_signal)
+T62;(relative_volume > 1.3) and (change_1w_percent < 15.0) and ema_10_keser_ema_20_yukari and (psar < close) and (macd_line > macd_signal)
+T63;(relative_volume > 1.3) and (change_1w_percent < 15.0) and ema_5_keser_ema_20_yukari
+T64;(relative_volume > 1.3) and (change_1w_percent < 15.0) and rsi_7_keser_rsi_14_yukari and stochrsi_k_keser_stochrsi_d_yukari and (macd_line > macd_signal) and (psar < close)
+T65;(relative_volume > 1.5) and (change_1w_percent < 15.0) and sma_5_keser_sma_20_yukari
+T67;(relative_volume > 1.3) and (change_1w_percent < 15.0) and (adx_14 > 20.0) and (positivedirectionalindicator_14 > negativedirectionalindicator_14) and (sma_200 < sma_50) and (aroonu_14 == 100) and (aroond_14 < aroonu_14) and (psar < close) and (cmf_20 > 0.0) and (hma_9 < close) and (ichimoku_baseline < ichimoku_conversionline)
+T69;(relative_volume > 1.3) and close_keser_dcm_20_20_yukari and (adx_14 > 20.0)
+T71;(relative_volume > 1.3) and (change_1w_percent < 15.0) and close_keser_ema_5_yukari and close_keser_ema_8_yukari and close_keser_ema_13_yukari and (macd_line > macd_signal) and (psar < close)
+T72;(relative_volume > 1.3) and (change_1w_percent < 15.0) and (close > ema_5) and (close > ema_8) and adx_14_keser_20p0_yukari
+T77;(relative_volume > 1.3) and (change_1w_percent < 15.0) and (close > sma_5) and sma_10_keser_sma_20_yukari and (macd_line > macd_signal)
+T78;(relative_volume > 1.3) and (change_1w_percent < 15.0) and (rsi_14 > 70.0) and (positivedirectionalindicator_14 > negativedirectionalindicator_14) and (negativedirectionalindicator_14 > 12) and (negativedirectionalindicator_14 < 20)
+T82;(relative_volume > 1.3) and (change_1w_percent < 15.0) and ema_5_keser_ema_50_yukari
+T90;(relative_volume > 1.3) and (change_1w_percent < 15.0) and (rsi_14 > 50.0) and (adx_14 > 20.0) and ema_5_keser_close_asagi and ema_10_keser_close_asagi and ema_20_keser_close_asagi and (ema_50 < close) and (ema_100 < close) and (ema_200 < close) and stochrsi_k_keser_stochrsi_d_yukari and vwma_20_keser_close_asagi and (vwap < close)
+T104;(relative_volume > 1.3) and (change_1w_percent < 15.0) and close_keser_classicpivots_1h_p_yukari
+T106;(relative_volume > 1.5) and (change_1w_percent < 15.0) and (close > sma_20) and (rsi_14 > 55) and (rsi_14 < 75) and stoch_k_keser_stoch_d_yukari and (bbu_20_2 > close)
+T107;(relative_volume > 1.3) and (change_1w_percent < 15.0) and close_keser_ichimoku_conversionline_yukari and (macd_line > macd_signal) and (ichimoku_leadingspana < close) and (ichimoku_leadingspanb < close)
+T110;(relative_volume > 1.3) and (change_1w_percent < 15.0) and (psar < close) and (macd_line > macd_signal) and stochrsi_k_keser_stochrsi_d_yukari and ichimoku_conversionline_keser_ichimoku_baseline_yukari
+T111;(relative_volume > 1.3) and (change_1w_percent < 15.0) and close_keser_ichimoku_conversionline_yukari and ema_20_keser_close_asagi and stochrsi_k_keser_stochrsi_d_yukari and williamspercentr_14_keser_eksi50p0_yukari
+T112;(relative_volume > 1.3) and (change_1w_percent < 15.0) and (close > hma_9) and (adx_14 > 25.0) and (negativedirectionalindicator_14 < positivedirectionalindicator_14) and (ema_20 < close) and (macd_line > macd_signal) and (stochrsi_k > stochrsi_d) and (rsi_14 > 50.0) and (momentum_10 > 1.0) and (sma_20 < close) and (psar < close) and (ichimoku_conversionline < close)
+T113;(relative_volume > 1.3) and (change_1w_percent < 15.0) and (positivedirectionalindicator_14 > negativedirectionalindicator_14) and (momentum_10 > 1.0) and (sma_20 < close) and stochrsi_k_keser_stochrsi_d_yukari and williamspercentr_14_keser_eksi50p0_yukari and hma_9_keser_close_asagi and ichimoku_conversionline_keser_close_asagi and (adx_14 > 25.0) and (ema_20 < close) and (psar < close)
+T121;(relative_volume > 1.3) and (change_1w_percent < 15.0) and ema_10_keser_ema_20_yukari and stoch_k_keser_stoch_d_yukari and (macd_line > macd_signal) and (psar < close) and stochrsi_k_keser_stochrsi_d_yukari and (ichimoku_conversionline < close)
+T123;(relative_volume > 1.3) and (change_1w_percent < 15.0) and macd_line_keser_macd_signal_yukari and (psar < close) and (vwma_20 < close) and (vwap < close)
+T125-20;(relative_volume > 1.3) and (change_1w_percent < 15.0) and close_keser_sma_20_yukari and stoch_k_keser_stoch_d_yukari and (vwma_20 < close) and (vwap < close) and ichimoku_conversionline_keser_close_asagi
+T125-50;(relative_volume > 1.3) and (change_1w_percent < 15.0) and close_keser_sma_50_yukari and stoch_k_keser_stoch_d_yukari and (vwma_20 < close) and (vwap < close) and ichimoku_conversionline_keser_close_asagi
+T125-100;(relative_volume > 1.3) and (change_1w_percent < 15.0) and close_keser_sma_100_yukari and stoch_k_keser_stoch_d_yukari and (vwma_20 < close) and (vwap < close) and ichimoku_conversionline_keser_close_asagi
+T125;(relative_volume > 1.3) and (change_1w_percent < 15.0) and close_keser_sma_200_yukari and stoch_k_keser_stoch_d_yukari and (vwma_20 < close) and (vwap < close) and ichimoku_conversionline_keser_close_asagi
+T300;(relative_volume > 1.3) and (change_1w_percent < 15.0) and close_keser_hma_9_yukari
+T301;(relative_volume > 1.3) and (change_1w_percent < 15.0) and (macd_line < 0.0) and macd_signal_keser_macd_line_asagi
+T302;(relative_volume > 1.3) and (change_1w_percent < 15.0) and close_keser_ema_200_yukari and (vwma_20 < close) and (vwap < close)
+T303;(relative_volume > 1.3) and (change_1w_percent < 15.0) and close_keser_sma_200_yukari and ema_200_keser_close_asagi
+T304;(relative_volume > 1.3) and (change_1w_percent < 15.0) and close_keser_sma_100_yukari and ema_100_keser_close_asagi
+T305;(relative_volume > 1.3) and (change_1w_percent < 15.0) and close_keser_sma_50_yukari and ema_50_keser_close_asagi
+T306;(relative_volume > 1.3) and (change_1w_percent < 15.0) and close_keser_sma_20_yukari and ema_20_keser_close_asagi
+T307;(relative_volume > 1.3) and (change_1w_percent < 15.0) and close_keser_hma_9_yukari and ema_20_keser_close_asagi and sma_20_keser_close_asagi
+T308;(relative_volume > 1.5) and (change_1w_percent < 15.0) and (adx_14 > 25.0) and hma_9_keser_close_asagi
+T309;(relative_volume > 1.3) and (change_1w_percent < 15.0) and (adx_14 > 25.0) and ema_10_keser_close_asagi and sma_10_keser_close_asagi and hma_9_keser_close_asagi
+T310;(relative_volume > 1.3) and (change_1w_percent < 15.0) and (adx_14 > 25.0) and ema_20_keser_close_asagi and sma_20_keser_close_asagi and hma_9_keser_close_asagi and (psar < close) and (vwma_20 < close) and (vwap < close)
+T311;(relative_volume > 1.0) and (change_1w_percent < 15.0) and (adx_14 > 20.0) and ema_50_keser_close_asagi and sma_50_keser_close_asagi and hma_9_keser_close_asagi and (psar < close) and (vwma_20 < close) and (vwap < close)
+T312;(relative_volume > 1.0) and (change_1w_percent < 15.0) and (adx_14 > 20.0) and sma_100_keser_close_asagi and hma_9_keser_close_asagi and (psar < close) and (vwma_20 < close) and (vwap < close)
+T313;(relative_volume > 1.0) and (change_1w_percent < 15.0) and (adx_14 > 20.0) and ema_200_keser_close_asagi and sma_200_keser_close_asagi and hma_9_keser_close_asagi and (psar < close) and (vwma_20 < close) and (vwap < close)
+T314;(relative_volume > 1.3) and (change_1w_percent < 15.0) and (rsi_14 > 50.0) and (adx_14 > 20.0) and (positivedirectionalindicator_14 > negativedirectionalindicator_14) and (momentum_10 > 1.0) and (stoch_k > stoch_d) and (macd_line > macd_signal) and (psar < close) and hma_9_keser_close_asagi and (stochrsi_k > stochrsi_d) and (vwma_20 < close) and (vwap < close)
+T315;(relative_volume > 1.3) and (change_1w_percent < 15.0) and (rsi_14 > 50.0) and (positivedirectionalindicator_14 > negativedirectionalindicator_14) and (stoch_k > stoch_d) and (aroond_14 < aroonu_14) and (mfi_14 > 50.0) and (hma_9 < close) and (williamspercentr_14 > -80.0) and (vwma_20 < close) and (vwap < close) and (ichimoku_baseline > ichimoku_conversionline) and (adx_14 > 19.0) and (momentum_10 > 0.9) and (macd_line > macd_signal) and (psar < close) and (cmf_20 > -0.2) and (stochrsi_k > stochrsi_d) and (ichimoku_conversionline < close) and (ichimoku_leadingspana > ichimoku_leadingspanb)
+T316;(relative_volume > 1.3) and (change_1w_percent < 15.0) and (adx_14 > 20.0) and (positivedirectionalindicator_14 > negativedirectionalindicator_14) and stoch_k_keser_stoch_d_yukari and (macd_line > macd_signal) and (psar < close) and hma_9_keser_close_asagi
+T317;(relative_volume > 1.5) and (change_1w_percent < 15.0) and (adx_14 > 25.0) and (positivedirectionalindicator_14 > negativedirectionalindicator_14) and (stoch_k > stoch_d) and (macd_line > macd_signal) and (psar < close) and (hma_9 < close)
+T318;(relative_volume > 1.3) and (change_1w_percent < 15.0) and (adx_14 > 30.0) and (positivedirectionalindicator_14 > negativedirectionalindicator_14) and (stoch_k > stoch_d) and (macd_line > macd_signal) and (psar < close) and (hma_9 < close)
+T319;(relative_volume > 2.0) and (change_1w_percent < 15.0) and (adx_14 > 20.0) and (positivedirectionalindicator_14 > negativedirectionalindicator_14) and (stoch_k > stoch_d) and (macd_line > macd_signal) and (psar < close) and (hma_9 < close)
+T320;(relative_volume > 1.5) and (change_1w_percent < 15.0) and (adx_14 > 25.0) and (positivedirectionalindicator_14 > negativedirectionalindicator_14) and stoch_k_keser_stoch_d_yukari and (macd_line > macd_signal) and (psar < close) and hma_9_keser_close_asagi
+T321;(relative_volume > 1.3) and (change_1w_percent < 15.0) and (adx_14 > 20.0) and (positivedirectionalindicator_14 > negativedirectionalindicator_14) and (stoch_k > stoch_d) and macd_line_keser_macd_signal_yukari and (psar < close) and (hma_9 < close)
+T322;(relative_volume > 1.7) and (change_1w_percent < 15.0) and (adx_14 > 23.0) and (positivedirectionalindicator_14 > negativedirectionalindicator_14) and (stoch_k > stoch_d) and (macd_line > macd_signal) and (psar < close) and hma_9_keser_close_asagi
+T323;(relative_volume > 1.5) and (change_1w_percent < 15.0) and (adx_14 > 25.0) and (positivedirectionalindicator_14 > negativedirectionalindicator_14) and stoch_k_keser_stoch_d_yukari and (macd_line > macd_signal) and (psar < close) and hma_9_keser_close_asagi
+T324;(relative_volume > 1.3) and (change_1w_percent < 15.0) and (adx_14 > 20.0) and (positivedirectionalindicator_14 > negativedirectionalindicator_14) and stoch_k_keser_stoch_d_yukari and (macd_line > macd_signal) and (psar < close) and hma_9_keser_close_asagi and (aroond_14 < aroonu_14) and (stochrsi_k > stochrsi_d) and (vwma_20 < close) and (vwap < close) and (ichimoku_conversionline < close) and (ichimoku_baseline > ichimoku_conversionline)
+T325;(relative_volume > 2.0) and (change_1w_percent < 15.0) and (adx_14 > 20.0) and (positivedirectionalindicator_14 > negativedirectionalindicator_14) and (stoch_k > stoch_d) and (macd_line > macd_signal) and (psar < close) and (hma_9 < close) and (aroond_14 < aroonu_14) and (aroonu_14 == 100) and (stochrsi_k > stochrsi_d) and (vwma_20 < close) and (vwap < close) and (ichimoku_conversionline < close) and (ichimoku_baseline > ichimoku_conversionline) and (momentum_10 > 1.0) and (mfi_14 > 50.0) and (cmf_20 > 0.0) and (ichimoku_leadingspana > ichimoku_leadingspanb)
+T326;(relative_volume > 1.3) and (change_1h_percent < 15.0) and (adx_14 > 20.0) and (positivedirectionalindicator_14 > negativedirectionalindicator_14) and (stoch_k > stoch_d) and (macd_line > macd_signal) and (psar < close) and (hma_9 < close) and (aroond_14 < aroonu_14) and (aroonu_14 == 100) and (stochrsi_k > stochrsi_d) and (vwma_20 < close) and (vwap < close) and (ichimoku_conversionline < close) and (ichimoku_baseline > ichimoku_conversionline) and (momentum_10 > 1.0) and (mfi_14 > 50.0) and (cmf_20 > 0.0) and (ichimoku_leadingspana > ichimoku_leadingspanb) and (change_1w_percent < 15.0)
+T400;(relative_volume > 1.3) and (change_1w_percent < 15.0) and rsi_14_keser_65p0_yukari and psar_keser_close_asagi
+T401;(relative_volume > 1.3) and (change_1w_percent < 15.0) and rsi_14_keser_65p0_yukari and macd_line_keser_macd_signal_yukari
+T402;(relative_volume > 1.3) and (change_1w_percent < 15.0) and rsi_14_keser_65p0_yukari and stoch_k_keser_stoch_d_yukari and stochrsi_k_keser_stochrsi_d_yukari
+T403;(relative_volume > 1.3) and (change_1w_percent < 15.0) and (rsi_14 < 50.0) and stoch_k_keser_stoch_d_yukari and stochrsi_k_keser_stochrsi_d_yukari and positivedirectionalindicator_14_keser_negativedirectionalindicator_14_yukari
+T404;(relative_volume > 1.7) and (change_1w_percent < 15.0) and (rsi_14 < 60.0) and (stoch_k > stoch_d) and (stochrsi_k > stochrsi_d) and positivedirectionalindicator_14_keser_negativedirectionalindicator_14_yukari
+T405;(relative_volume > 1.3) and (change_1w_percent < 15.0) and rsi_14_keser_55p0_yukari and (stoch_k > stoch_d) and (stochrsi_k > stochrsi_d) and psar_keser_close_asagi
+T406;(relative_volume > 1.3) and (change_1w_percent < 15.0) and rsi_14_keser_50p0_yukari and macd_line_keser_macd_signal_yukari
+T407;(relative_volume > 1.3) and (change_1w_percent < 15.0) and rsi_14_keser_60p0_yukari and stoch_k_keser_stoch_d_yukari and stochrsi_k_keser_stochrsi_d_yukari
+T408;(relative_volume > 1.3) and (change_1w_percent < 15.0) and (rsi_14 < 70.0) and (stoch_k > stoch_d) and (stochrsi_k > stochrsi_d) and (positivedirectionalindicator_14 > negativedirectionalindicator_14) and (adx_14 > 30.0) and (aroonu_14 == 100) and (psar < close) and (hma_9 < close)
+T409;(relative_volume > 1.3) and (change_1w_percent < 15.0) and (rsi_14 < 60.0) and stoch_k_keser_stoch_d_yukari and stochrsi_k_keser_stochrsi_d_yukari and psar_keser_close_asagi
+T410;(relative_volume > 1.7) and (change_1w_percent < 15.0) and (rsi_14 < 65.0) and positivedirectionalindicator_14_keser_negativedirectionalindicator_14_yukari
+T411;(relative_volume > 1.3) and (change_1w_percent < 15.0) and positivedirectionalindicator_14_keser_negativedirectionalindicator_14_yukari and macd_line_keser_macd_signal_yukari
+T412;(relative_volume > 1.3) and (change_1w_percent < 15.0) and stoch_k_keser_stoch_d_yukari and stochrsi_k_keser_stochrsi_d_yukari and positivedirectionalindicator_14_keser_negativedirectionalindicator_14_yukari
+T413;(relative_volume > 1.3) and (change_1w_percent < 15.0) and positivedirectionalindicator_14_keser_negativedirectionalindicator_14_yukari and psar_keser_close_asagi
+T414;(relative_volume > 1.7) and (change_1w_percent < 15.0) and positivedirectionalindicator_14_keser_negativedirectionalindicator_14_yukari and (macd_line < 0.0)
+T415;(relative_volume > 1.3) and (change_1w_percent < 15.0) and stoch_k_keser_stoch_d_yukari and stochrsi_k_keser_stochrsi_d_yukari and psar_keser_close_asagi
+T416;(relative_volume > 1.5) and (change_1w_percent < 15.0) and (stoch_k > stoch_d) and (stochrsi_k > stochrsi_d) and psar_keser_close_asagi and (macd_line < 0.0)
+T417;(relative_volume > 1.3) and (change_1w_percent < 15.0) and (stoch_k > 80.0) and psar_keser_close_asagi
+T418;(relative_volume > 1.3) and (change_1w_percent < 15.0) and macd_line_keser_0p0_yukari
+T419;(relative_volume > 1.3) and (change_1w_percent < 15.0) and macd_line_keser_0p0_yukari and (psar < close)
+T420;(relative_volume > 1.3) and (change_1w_percent < 15.0) and macd_line_keser_macd_signal_yukari and psar_keser_close_asagi and (hma_9 < close) and vwma_20_keser_close_asagi and (vwap < close)
+T421;(relative_volume > 1.3) and (change_1w_percent < 15.0) and stoch_k_keser_20p0_yukari and stoch_d_keser_stoch_k_asagi and stochrsi_k_keser_stochrsi_d_yukari and (macd_line < 0.0)
+T422;(relative_volume > 1.7) and (change_1w_percent < 15.0) and stoch_k_keser_stoch_d_yukari and stochrsi_k_keser_stochrsi_d_yukari and (macd_line < 0.0)
+T423;(relative_volume > 1.3) and (change_1w_percent < 15.0) and stoch_k_keser_stoch_d_yukari and stochrsi_k_keser_stochrsi_d_yukari and (macd_line > macd_signal) and (psar < close) and (rsi_14 < 65.0)
+T424;(relative_volume > 1.5) and (change_1w_percent < 15.0) and stoch_k_keser_stoch_d_yukari and stochrsi_k_keser_stochrsi_d_yukari and (stoch_d < 20.0)
+T425;(relative_volume > 1.3) and (change_1w_percent < 15.0) and stoch_k_keser_20p0_yukari and stoch_d_keser_stoch_k_asagi and stochrsi_k_keser_stochrsi_d_yukari
+T426;(relative_volume > 1.3) and (change_1w_percent < 15.0) and (stoch_k > stoch_d) and (stochrsi_k > stochrsi_d) and psar_keser_close_asagi and rsi_14_keser_65p0_yukari
+T427;(relative_volume > 1.3) and (change_1w_percent < 15.0) and stoch_k_keser_stoch_d_yukari and stochrsi_k_keser_stochrsi_d_yukari and (adx_14 > 25.0) and (hma_9 < close) and (rsi_14 < 65.0)
+T428;(relative_volume > 1.3) and (change_1w_percent < 15.0) and stoch_k_keser_stoch_d_yukari and stochrsi_k_keser_stochrsi_d_yukari and macd_line_keser_macd_signal_yukari
+T429;(relative_volume > 1.3) and (change_1w_percent < 15.0) and macd_line_keser_macd_signal_yukari and (positivedirectionalindicator_14 > negativedirectionalindicator_14) and (psar < close) and rsi_14_keser_50p0_yukari
+T430;(relative_volume > 1.3) and (change_1w_percent < 15.0) and macd_line_keser_macd_signal_yukari and psar_keser_close_asagi and (rsi_14 < 60.0)
+T431;(relative_volume > 1.0) and (change_1w_percent < 15.0) and stoch_k_keser_stoch_d_yukari and macd_line_keser_macd_signal_yukari and psar_keser_close_asagi and (rsi_14 < 70.0)
+T432;(relative_volume > 1.3) and (change_1w_percent < 15.0) and macd_line_keser_macd_signal_yukari and psar_keser_close_asagi and (rsi_14 < 70.0)
+T433;(relative_volume > 1.0) and (change_1w_percent < 15.0) and stoch_k_keser_stoch_d_yukari and stochrsi_k_keser_stochrsi_d_yukari and psar_keser_close_asagi and (rsi_14 < 70.0)
+T434;(relative_volume > 1.0) and (change_1w_percent < 15.0) and stoch_k_keser_stoch_d_yukari and (stoch_d < 20.0) and psar_keser_close_asagi and (rsi_14 < 70.0)
+T435;(relative_volume > 1.5) and (change_1w_percent < 15.0) and stoch_k_keser_stoch_d_yukari and (stoch_d < 20.0) and stochrsi_k_keser_stochrsi_d_yukari
+T436;(relative_volume > 1.3) and (change_1w_percent < 15.0) and (stoch_k > stoch_d) and (stochrsi_k > stochrsi_d) and rsi_14_keser_30p0_yukari
+T437;(relative_volume > 1.3) and (change_1w_percent < 15.0) and psar_keser_close_asagi and rsi_14_keser_40p0_yukari
+T438;(relative_volume > 1.3) and (change_1w_percent < 15.0) and psar_keser_close_asagi and rsi_14_keser_50p0_yukari
+T439;(relative_volume > 1.0) and (change_1w_percent < 15.0) and stoch_k_keser_stoch_d_yukari and stochrsi_k_keser_stochrsi_d_yukari and (rsi_14 < 70.0) and psar_keser_close_asagi
+T440;(relative_volume > 1.0) and (change_1w_percent < 15.0) and (stochrsi_k > stochrsi_d) and rsi_14_keser_70p0_yukari and (hma_9 < close) and (vwma_20 < close) and (vwap < close)
+T441;(relative_volume > 1.3) and (change_1w_percent < 15.0) and stoch_k_keser_stoch_d_yukari and stochrsi_k_keser_stochrsi_d_yukari and (rsi_14 < 70.0) and psar_keser_close_asagi
+T442;(relative_volume > 1.3) and (change_1w_percent < 15.0) and stoch_k_keser_stoch_d_yukari and stochrsi_k_keser_stochrsi_d_yukari and psar_keser_close_asagi and hma_9_keser_close_asagi
+T443;(relative_volume > 1.3) and (change_1w_percent < 15.0) and stoch_k_keser_stoch_d_yukari and stochrsi_k_keser_stochrsi_d_yukari and positivedirectionalindicator_14_keser_negativedirectionalindicator_14_yukari and hma_9_keser_close_asagi
+T444;(relative_volume > 1.3) and (change_1w_percent < 15.0) and stoch_k_keser_stoch_d_yukari and stochrsi_k_keser_stochrsi_d_yukari and hma_9_keser_close_asagi and macd_line_keser_0p0_yukari
+T445;(relative_volume > 1.3) and (change_1w_percent < 15.0) and stoch_k_keser_stoch_d_yukari and stochrsi_k_keser_stochrsi_d_yukari and hma_9_keser_close_asagi and macd_line_keser_macd_signal_yukari
+T446;(relative_volume > 1.0) and (change_1w_percent < 15.0) and (stoch_k > stoch_d) and (stochrsi_k > stochrsi_d) and hma_9_keser_close_asagi and ichimoku_conversionline_keser_ichimoku_baseline_yukari
+T447;(relative_volume > 1.3) and (change_1w_percent < 15.0) and stoch_k_keser_stoch_d_yukari and stochrsi_k_keser_stochrsi_d_yukari and hma_9_keser_close_asagi and rsi_14_keser_60p0_yukari
+T448;(relative_volume > 1.3) and (change_1w_percent < 15.0) and stoch_k_keser_stoch_d_yukari and stochrsi_k_keser_stochrsi_d_yukari and hma_9_keser_close_asagi and rsi_14_keser_55p0_yukari
+T449;(relative_volume > 1.3) and (change_1w_percent < 15.0) and stoch_k_keser_stoch_d_yukari and stochrsi_k_keser_stochrsi_d_yukari and hma_9_keser_close_asagi and rsi_14_keser_50p0_yukari
+T450;(relative_volume > 1.3) and (change_1w_percent < 15.0) and stoch_k_keser_stoch_d_yukari and stochrsi_k_keser_stochrsi_d_yukari and hma_9_keser_close_asagi and rsi_14_keser_45p0_yukari
+T451;(relative_volume > 1.3) and (change_1w_percent < 15.0) and stoch_k_keser_stoch_d_yukari and stochrsi_k_keser_stochrsi_d_yukari and hma_9_keser_close_asagi and rsi_14_keser_40p0_yukari
+T452;(relative_volume > 1.3) and (change_1w_percent < 15.0) and stoch_k_keser_stoch_d_yukari and stochrsi_k_keser_stochrsi_d_yukari and hma_9_keser_close_asagi and rsi_14_keser_35p0_yukari
+T453;(relative_volume > 1.0) and (change_1w_percent < 15.0) and stoch_k_keser_stoch_d_yukari and stochrsi_k_keser_stochrsi_d_yukari and hma_9_keser_close_asagi and rsi_14_keser_30p0_yukari
+T454;(relative_volume > 1.0) and (change_1w_percent < 15.0) and stoch_k_keser_stoch_d_yukari and stochrsi_k_keser_stochrsi_d_yukari and hma_9_keser_close_asagi and rsi_14_keser_25p0_yukari
+T455;(relative_volume > 1.3) and (change_1w_percent < 15.0) and rsi_14_keser_65p0_yukari and psar_keser_close_asagi
+T456;(relative_volume > 1.3) and (change_1w_percent < 15.0) and rsi_14_keser_60p0_yukari and psar_keser_close_asagi
+T457;(relative_volume > 1.3) and (change_1w_percent < 15.0) and rsi_14_keser_55p0_yukari and psar_keser_close_asagi
+T458;(relative_volume > 1.3) and (change_1w_percent < 15.0) and rsi_14_keser_50p0_yukari and psar_keser_close_asagi
+T459;(relative_volume > 1.0) and (change_1w_percent < 15.0) and rsi_14_keser_30p0_yukari and psar_keser_close_asagi
+T460;(relative_volume > 1.3) and (change_1w_percent < 15.0) and rsi_14_keser_60p0_yukari and positivedirectionalindicator_14_keser_negativedirectionalindicator_14_yukari
+T461;(relative_volume > 1.3) and (change_1w_percent < 15.0) and rsi_14_keser_55p0_yukari and positivedirectionalindicator_14_keser_negativedirectionalindicator_14_yukari
+T462;(relative_volume > 1.5) and (change_1w_percent < 15.0) and rsi_14_keser_50p0_yukari and positivedirectionalindicator_14_keser_negativedirectionalindicator_14_yukari
+T463;(relative_volume > 1.0) and (change_1w_percent < 15.0) and rsi_14_keser_30p0_yukari and positivedirectionalindicator_14_keser_negativedirectionalindicator_14_yukari
+T464;(relative_volume > 1.3) and (change_1w_percent < 15.0) and rsi_14_keser_65p0_yukari and macd_line_keser_0p0_yukari
+T465;(relative_volume > 1.3) and (change_1w_percent < 15.0) and rsi_14_keser_60p0_yukari and macd_line_keser_0p0_yukari
+T466;(relative_volume > 1.3) and (change_1w_percent < 15.0) and rsi_14_keser_55p0_yukari and macd_line_keser_0p0_yukari
+T467;(relative_volume > 1.0) and (change_1w_percent < 15.0) and rsi_14_keser_50p0_yukari and macd_line_keser_0p0_yukari
+T468;(relative_volume > 1.3) and (change_1w_percent < 15.0) and rsi_14_keser_65p0_yukari and macd_line_keser_macd_signal_yukari
+T469;(relative_volume > 1.3) and (change_1w_percent < 15.0) and rsi_14_keser_60p0_yukari and macd_line_keser_macd_signal_yukari
+T470;(relative_volume > 1.3) and (change_1w_percent < 15.0) and rsi_14_keser_55p0_yukari and macd_line_keser_macd_signal_yukari
+T471;(relative_volume > 1.3) and (change_1w_percent < 15.0) and rsi_14_keser_50p0_yukari and macd_line_keser_macd_signal_yukari
+T472;(relative_volume > 1.3) and (change_1w_percent < 15.0) and rsi_14_keser_35p0_yukari and macd_line_keser_macd_signal_yukari
+T473;(relative_volume > 1.0) and (change_1w_percent < 15.0) and rsi_14_keser_65p0_yukari and ichimoku_conversionline_keser_ichimoku_baseline_yukari
+T474;(relative_volume > 1.0) and (change_1w_percent < 15.0) and rsi_14_keser_60p0_yukari and ichimoku_conversionline_keser_ichimoku_baseline_yukari
+T475;(relative_volume > 1.0) and (change_1w_percent < 15.0) and rsi_14_keser_55p0_yukari and ichimoku_conversionline_keser_ichimoku_baseline_yukari
+T476;(relative_volume > 1.0) and (change_1w_percent < 15.0) and rsi_14_keser_50p0_yukari and ichimoku_conversionline_keser_ichimoku_baseline_yukari
+T477;(relative_volume > 1.3) and (change_1w_percent < 15.0) and (rsi_14 < 70.0) and (ichimoku_conversionline > ichimoku_baseline) and (positivedirectionalindicator_14 > negativedirectionalindicator_14) and stoch_k_keser_stoch_d_yukari and (macd_line > macd_signal) and (psar < close) and (hma_9 < close) and stochrsi_k_keser_stochrsi_d_yukari
+T478;(relative_volume > 1.3) and (change_1w_percent < 15.0) and (rsi_14 < 70.0) and (ichimoku_conversionline > ichimoku_baseline) and (positivedirectionalindicator_14 > negativedirectionalindicator_14) and (stoch_k > stoch_d) and (macd_line > macd_signal) and (psar < close) and (hma_9 < close) and (stochrsi_k > stochrsi_d)
+T500;(change_1w_percent < 15.0) and (close > df['BBM_20_2.0']) and (adx_14 > 20.0)
+T501;(relative_volume > 1.5) and (change_1w_percent < 15.0) and (adx_14 > 20.0) and positivedirectionalindicator_14_keser_negativedirectionalindicator_14_yukari
+T502;(relative_volume > 2.0) and (change_1w_percent < 15.0) and mfi_14_keser_50p0_yukari
+T503;(relative_volume > 2.0) and (change_1w_percent < 15.0) and close_keser_bbm_20_2_yukari
+T504;(relative_volume > 1.3) and (change_1w_percent < 15.0) and mfi_14_keser_50p0_yukari and close_keser_sma_21_yukari and (rsi_7 > 50.0)
+T505;(relative_volume > 1.3) and (change_1w_percent < 15.0) and mfi_14_keser_50p0_yukari and (rsi_7 > 50.0) and close_keser_ema_21_yukari
+T507;(relative_volume > 1.5) and (change_1w_percent < 15.0) and close_keser_ema_10_yukari and (ema_10 > sma_50)
+T546-20;(relative_volume > 1.0) and (change_1w_percent < 15.0) and close_keser_sma_20_yukari and stoch_k_keser_stoch_d_yukari and macd_line_keser_macd_signal_yukari and (psar < close) and (vwma_20 < close) and (vwap < close) and ichimoku_conversionline_keser_close_asagi
+T546-50;(relative_volume > 1.0) and (change_1w_percent < 15.0) and close_keser_sma_50_yukari and stoch_k_keser_stoch_d_yukari and macd_line_keser_macd_signal_yukari and (psar < close) and (vwma_20 < close) and (vwap < close) and ichimoku_conversionline_keser_close_asagi
+T546-100;(relative_volume > 1.0) and (change_1w_percent < 15.0) and close_keser_sma_100_yukari and stoch_k_keser_stoch_d_yukari and macd_line_keser_macd_signal_yukari and (psar < close) and (vwma_20 < close) and (vwap < close) and ichimoku_conversionline_keser_close_asagi
+T546;(relative_volume > 1.0) and (change_1w_percent < 15.0) and close_keser_sma_200_yukari and stoch_k_keser_stoch_d_yukari and macd_line_keser_macd_signal_yukari and (psar < close) and (vwma_20 < close) and (vwap < close) and ichimoku_conversionline_keser_close_asagi
+T601;(relative_volume > 1.0) and (change_1w_percent < 15.0) and stoch_k_keser_stoch_d_yukari and stochrsi_k_keser_stochrsi_d_yukari and hma_9_keser_close_asagi and rsi_14_keser_20p0_yukari
+T602;(relative_volume > 1.0) and (change_1w_percent < 15.0) and stoch_k_keser_stoch_d_yukari and stochrsi_k_keser_stochrsi_d_yukari and hma_9_keser_close_asagi and rsi_14_keser_25p0_yukari
+T603;(relative_volume > 1.0) and (change_1w_percent < 15.0) and stoch_k_keser_stoch_d_yukari and stochrsi_k_keser_stochrsi_d_yukari and hma_9_keser_close_asagi and rsi_14_keser_30p0_yukari
+T604;(relative_volume > 1.0) and (change_1w_percent < 15.0) and stoch_k_keser_stoch_d_yukari and stochrsi_k_keser_stochrsi_d_yukari and hma_9_keser_close_asagi and rsi_14_keser_35p0_yukari
+T605;(relative_volume > 1.0) and (change_1w_percent < 15.0) and stoch_k_keser_stoch_d_yukari and stochrsi_k_keser_stochrsi_d_yukari and hma_9_keser_close_asagi and rsi_14_keser_40p0_yukari
+T606;(relative_volume > 1.0) and (change_1w_percent < 15.0) and stoch_k_keser_stoch_d_yukari and stochrsi_k_keser_stochrsi_d_yukari and hma_9_keser_close_asagi and rsi_14_keser_45p0_yukari
+T607;(relative_volume > 1.3) and (change_1w_percent < 15.0) and stoch_k_keser_stoch_d_yukari and stochrsi_k_keser_stochrsi_d_yukari and hma_9_keser_close_asagi and rsi_14_keser_50p0_yukari
+T608;(relative_volume > 1.3) and (change_1w_percent < 15.0) and stoch_k_keser_stoch_d_yukari and stochrsi_k_keser_stochrsi_d_yukari and hma_9_keser_close_asagi and rsi_14_keser_55p0_yukari
+T609;(relative_volume > 1.3) and (change_1w_percent < 15.0) and stoch_k_keser_stoch_d_yukari and stochrsi_k_keser_stochrsi_d_yukari and hma_9_keser_close_asagi and rsi_14_keser_60p0_yukari
+T609-65;(relative_volume > 1.0) and (change_1w_percent < 15.0) and stoch_k_keser_stoch_d_yukari and stochrsi_k_keser_stochrsi_d_yukari and hma_9_keser_close_asagi and rsi_14_keser_65p0_yukari
+T610;(relative_volume > 1.0) and (change_1w_percent < 15.0) and stoch_k_keser_stoch_d_yukari and stochrsi_k_keser_stochrsi_d_yukari and hma_9_keser_close_asagi and rsi_14_keser_70p0_yukari
+T610-75;(relative_volume > 1.0) and (change_1w_percent < 15.0) and stoch_k_keser_stoch_d_yukari and stochrsi_k_keser_stochrsi_d_yukari and hma_9_keser_close_asagi and rsi_14_keser_75p0_yukari
+T611;(relative_volume > 1.0) and (change_1w_percent < 15.0) and stoch_k_keser_20p0_yukari and stoch_d_keser_stoch_k_asagi and stochrsi_k_keser_stochrsi_d_yukari and rsi_14_keser_20p0_yukari
+T612;(relative_volume > 1.0) and (change_1w_percent < 15.0) and stoch_k_keser_20p0_yukari and stoch_d_keser_stoch_k_asagi and stochrsi_k_keser_stochrsi_d_yukari and rsi_14_keser_25p0_yukari
+T613;(relative_volume > 1.0) and (change_1w_percent < 15.0) and stoch_k_keser_20p0_yukari and stoch_d_keser_stoch_k_asagi and stochrsi_k_keser_stochrsi_d_yukari and rsi_14_keser_30p0_yukari
+T614;(relative_volume > 1.0) and (change_1w_percent < 15.0) and stoch_k_keser_20p0_yukari and stoch_d_keser_stoch_k_asagi and stochrsi_k_keser_stochrsi_d_yukari and rsi_14_keser_35p0_yukari
+T615;(relative_volume > 1.0) and (change_1w_percent < 15.0) and stoch_k_keser_20p0_yukari and stoch_d_keser_stoch_k_asagi and stochrsi_k_keser_stochrsi_d_yukari and rsi_14_keser_40p0_yukari
+T616;(relative_volume > 1.0) and (change_1w_percent < 15.0) and stoch_k_keser_20p0_yukari and stoch_d_keser_stoch_k_asagi and stochrsi_k_keser_stochrsi_d_yukari and rsi_14_keser_45p0_yukari
+T617;(relative_volume > 1.0) and (change_1w_percent < 15.0) and stoch_k_keser_20p0_yukari and stoch_d_keser_stoch_k_asagi and stochrsi_k_keser_stochrsi_d_yukari and rsi_14_keser_50p0_yukari
+T618;(relative_volume > 1.0) and (change_1w_percent < 15.0) and stoch_k_keser_20p0_yukari and stoch_d_keser_stoch_k_asagi and stochrsi_k_keser_stochrsi_d_yukari and rsi_14_keser_55p0_yukari
+T619;(relative_volume > 1.0) and (change_1w_percent < 15.0) and stoch_k_keser_20p0_yukari and stoch_d_keser_stoch_k_asagi and stochrsi_k_keser_stochrsi_d_yukari and rsi_14_keser_60p0_yukari
+T619-65;(relative_volume > 1.0) and (change_1w_percent < 15.0) and stoch_k_keser_20p0_yukari and stoch_d_keser_stoch_k_asagi and stochrsi_k_keser_stochrsi_d_yukari and rsi_14_keser_65p0_yukari
+T620;(relative_volume > 1.0) and (change_1w_percent < 15.0) and stoch_k_keser_20p0_yukari and stoch_d_keser_stoch_k_asagi and stochrsi_k_keser_stochrsi_d_yukari and rsi_14_keser_70p0_yukari
+T620-75;(relative_volume > 1.0) and (change_1w_percent < 15.0) and stoch_k_keser_20p0_yukari and stoch_d_keser_stoch_k_asagi and stochrsi_k_keser_stochrsi_d_yukari and rsi_14_keser_75p0_yukari
+T621;(relative_volume > 1.0) and (change_1w_percent < 15.0) and macd_line_keser_macd_signal_yukari and rsi_14_keser_20p0_yukari
+T622;(relative_volume > 1.0) and (change_1w_percent < 15.0) and macd_line_keser_macd_signal_yukari and rsi_14_keser_25p0_yukari
+T623;(relative_volume > 1.0) and (change_1w_percent < 15.0) and macd_line_keser_macd_signal_yukari and rsi_14_keser_30p0_yukari
+T624;(relative_volume > 1.0) and (change_1w_percent < 15.0) and macd_line_keser_macd_signal_yukari and rsi_14_keser_35p0_yukari
+T625;(relative_volume > 1.0) and (change_1w_percent < 15.0) and macd_line_keser_macd_signal_yukari and rsi_14_keser_40p0_yukari
+T626;(relative_volume > 1.3) and (change_1w_percent < 15.0) and macd_line_keser_macd_signal_yukari and rsi_14_keser_45p0_yukari
+T627;(relative_volume > 1.3) and (change_1w_percent < 15.0) and macd_line_keser_macd_signal_yukari and rsi_14_keser_50p0_yukari
+T628;(relative_volume > 1.3) and (change_1w_percent < 15.0) and macd_line_keser_macd_signal_yukari and rsi_14_keser_55p0_yukari
+T629;(relative_volume > 1.0) and (change_1w_percent < 15.0) and macd_line_keser_macd_signal_yukari and rsi_14_keser_60p0_yukari
+T629-65;(relative_volume > 1.0) and (change_1w_percent < 15.0) and macd_line_keser_macd_signal_yukari and rsi_14_keser_65p0_yukari
+T630;(relative_volume > 1.0) and (change_1w_percent < 15.0) and macd_line_keser_macd_signal_yukari and rsi_14_keser_70p0_yukari
+T630-75;(relative_volume > 1.0) and (change_1w_percent < 15.0) and macd_line_keser_macd_signal_yukari and rsi_14_keser_75p0_yukari
+T631;(relative_volume > 1.0) and (change_1w_percent < 15.0) and macd_line_keser_0p0_yukari and rsi_14_keser_20p0_yukari
+T632;(relative_volume > 1.0) and (change_1w_percent < 15.0) and macd_line_keser_0p0_yukari and rsi_14_keser_25p0_yukari
+T633;(relative_volume > 1.0) and (change_1w_percent < 15.0) and macd_line_keser_0p0_yukari and rsi_14_keser_30p0_yukari
+T634;(relative_volume > 1.0) and (change_1w_percent < 15.0) and macd_line_keser_0p0_yukari and rsi_14_keser_35p0_yukari
+T635;(relative_volume > 1.0) and (change_1w_percent < 15.0) and macd_line_keser_0p0_yukari and rsi_14_keser_40p0_yukari
+T636;(relative_volume > 1.0) and (change_1w_percent < 15.0) and macd_line_keser_0p0_yukari and rsi_14_keser_45p0_yukari
+T637;(relative_volume > 1.0) and (change_1w_percent < 15.0) and macd_line_keser_0p0_yukari and rsi_14_keser_50p0_yukari
+T638;(relative_volume > 1.0) and (change_1w_percent < 15.0) and macd_line_keser_0p0_yukari and rsi_14_keser_55p0_yukari
+T639;(relative_volume > 1.0) and (change_1w_percent < 15.0) and macd_line_keser_0p0_yukari and rsi_14_keser_60p0_yukari
+T639-65;(relative_volume > 1.0) and (change_1w_percent < 15.0) and macd_line_keser_0p0_yukari and rsi_14_keser_65p0_yukari
+T640;(relative_volume > 1.0) and (change_1w_percent < 15.0) and macd_line_keser_0p0_yukari and rsi_14_keser_70p0_yukari
+T640-75;(relative_volume > 1.0) and (change_1w_percent < 15.0) and macd_line_keser_0p0_yukari and rsi_14_keser_75p0_yukari
+T641;(relative_volume > 1.0) and (change_1w_percent < 15.0) and psar_keser_close_asagi and rsi_14_keser_20p0_yukari
+T642;(relative_volume > 1.0) and (change_1w_percent < 15.0) and psar_keser_close_asagi and rsi_14_keser_25p0_yukari
+T643;(relative_volume > 1.0) and (change_1w_percent < 15.0) and psar_keser_close_asagi and rsi_14_keser_30p0_yukari
+T644;(relative_volume > 1.0) and (change_1w_percent < 15.0) and psar_keser_close_asagi and rsi_14_keser_35p0_yukari
+T645;(relative_volume > 1.0) and (change_1w_percent < 15.0) and psar_keser_close_asagi and rsi_14_keser_40p0_yukari
+T646;(relative_volume > 1.0) and (change_1w_percent < 15.0) and psar_keser_close_asagi and rsi_14_keser_45p0_yukari
+T647;(relative_volume > 1.0) and (change_1w_percent < 15.0) and psar_keser_close_asagi and rsi_14_keser_50p0_yukari
+T648;(relative_volume > 1.3) and (change_1w_percent < 15.0) and psar_keser_close_asagi and rsi_14_keser_55p0_yukari
+T649;(relative_volume > 1.3) and (change_1w_percent < 15.0) and psar_keser_close_asagi and rsi_14_keser_60p0_yukari
+T649-65;(relative_volume > 1.0) and (change_1w_percent < 15.0) and psar_keser_close_asagi and rsi_14_keser_65p0_yukari
+T650;(relative_volume > 1.0) and (change_1w_percent < 15.0) and psar_keser_close_asagi and rsi_14_keser_70p0_yukari
+T650-75;(relative_volume > 1.0) and (change_1w_percent < 15.0) and psar_keser_close_asagi and rsi_14_keser_75p0_yukari
+T651;(relative_volume > 1.0) and (change_1w_percent < 15.0) and ichimoku_conversionline_keser_ichimoku_baseline_yukari and rsi_14_keser_20p0_yukari
+T652;(relative_volume > 1.0) and (change_1w_percent < 15.0) and ichimoku_conversionline_keser_ichimoku_baseline_yukari and rsi_14_keser_25p0_yukari
+T653;(relative_volume > 1.0) and (change_1w_percent < 15.0) and ichimoku_conversionline_keser_ichimoku_baseline_yukari and rsi_14_keser_30p0_yukari
+T654;(relative_volume > 1.0) and (change_1w_percent < 15.0) and ichimoku_conversionline_keser_ichimoku_baseline_yukari and rsi_14_keser_35p0_yukari
+T655;(relative_volume > 1.0) and (change_1w_percent < 15.0) and ichimoku_conversionline_keser_ichimoku_baseline_yukari and rsi_14_keser_40p0_yukari
+T656;(relative_volume > 1.0) and (change_1w_percent < 15.0) and ichimoku_conversionline_keser_ichimoku_baseline_yukari and rsi_14_keser_45p0_yukari
+T657;(relative_volume > 1.0) and (change_1w_percent < 15.0) and ichimoku_conversionline_keser_ichimoku_baseline_yukari and rsi_14_keser_50p0_yukari
+T658;(relative_volume > 1.0) and (change_1w_percent < 15.0) and ichimoku_conversionline_keser_ichimoku_baseline_yukari and rsi_14_keser_55p0_yukari
+T659;(relative_volume > 1.0) and (change_1w_percent < 15.0) and ichimoku_conversionline_keser_ichimoku_baseline_yukari and rsi_14_keser_60p0_yukari
+T659-65;(relative_volume > 1.0) and (change_1w_percent < 15.0) and ichimoku_conversionline_keser_ichimoku_baseline_yukari and rsi_14_keser_65p0_yukari
+T660;(relative_volume > 1.0) and (change_1w_percent < 15.0) and ichimoku_conversionline_keser_ichimoku_baseline_yukari and rsi_14_keser_70p0_yukari
+T660-75;(relative_volume > 1.0) and (change_1w_percent < 15.0) and ichimoku_conversionline_keser_ichimoku_baseline_yukari and rsi_14_keser_75p0_yukari
+T661;(relative_volume > 1.0) and (change_1w_percent < 15.0) and (stoch_k > stoch_d) and (stochrsi_k > stochrsi_d) and hma_9_keser_close_asagi and rsi_14_keser_20p0_yukari
+T662;(relative_volume > 1.0) and (change_1w_percent < 15.0) and (stoch_k > stoch_d) and (stochrsi_k > stochrsi_d) and hma_9_keser_close_asagi and rsi_14_keser_25p0_yukari
+T663;(relative_volume > 1.0) and (change_1w_percent < 15.0) and (stoch_k > stoch_d) and (stochrsi_k > stochrsi_d) and hma_9_keser_close_asagi and rsi_14_keser_30p0_yukari
+T664;(relative_volume > 1.0) and (change_1w_percent < 15.0) and (stoch_k > stoch_d) and (stochrsi_k > stochrsi_d) and hma_9_keser_close_asagi and rsi_14_keser_35p0_yukari
+T665;(relative_volume > 1.0) and (change_1w_percent < 15.0) and (stoch_k > stoch_d) and (stochrsi_k > stochrsi_d) and hma_9_keser_close_asagi and rsi_14_keser_40p0_yukari
+T666;(relative_volume > 1.0) and (change_1w_percent < 15.0) and (stoch_k > stoch_d) and (stochrsi_k > stochrsi_d) and hma_9_keser_close_asagi and rsi_14_keser_45p0_yukari
+T667;(relative_volume > 1.3) and (change_1w_percent < 15.0) and (stoch_k > stoch_d) and (stochrsi_k > stochrsi_d) and hma_9_keser_close_asagi and rsi_14_keser_50p0_yukari
+T668;(relative_volume > 1.3) and (change_1w_percent < 15.0) and (stoch_k > stoch_d) and (stochrsi_k > stochrsi_d) and hma_9_keser_close_asagi and rsi_14_keser_55p0_yukari
+T669;(relative_volume > 1.3) and (change_1w_percent < 15.0) and (stoch_k > stoch_d) and (stochrsi_k > stochrsi_d) and hma_9_keser_close_asagi and rsi_14_keser_60p0_yukari
+T669-65;(relative_volume > 1.0) and (change_1w_percent < 15.0) and (stoch_k > stoch_d) and (stochrsi_k > stochrsi_d) and hma_9_keser_close_asagi and rsi_14_keser_65p0_yukari
+T670;(relative_volume > 1.0) and (change_1w_percent < 15.0) and (stoch_k > stoch_d) and (stochrsi_k > stochrsi_d) and hma_9_keser_close_asagi and rsi_14_keser_70p0_yukari
+T670-75;(relative_volume > 1.0) and (change_1w_percent < 15.0) and (stoch_k > stoch_d) and (stochrsi_k > stochrsi_d) and hma_9_keser_close_asagi and rsi_14_keser_75p0_yukari
+T671;(relative_volume > 1.0) and (change_1w_percent < 15.0) and (stoch_k > stoch_d) and (stochrsi_k > stochrsi_d) and (hma_9 < close) and (macd_line > macd_signal) and (psar < close) and rsi_14_keser_20p0_yukari
+T672;(relative_volume > 1.0) and (change_1w_percent < 15.0) and (stoch_k > stoch_d) and (stochrsi_k > stochrsi_d) and (hma_9 < close) and (macd_line > macd_signal) and (psar < close) and rsi_14_keser_25p0_yukari
+T673;(relative_volume > 1.0) and (change_1w_percent < 15.0) and (stoch_k > stoch_d) and (stochrsi_k > stochrsi_d) and (hma_9 < close) and (macd_line > macd_signal) and (psar < close) and rsi_14_keser_30p0_yukari
+T674;(relative_volume > 1.0) and (change_1w_percent < 15.0) and (stoch_k > stoch_d) and (stochrsi_k > stochrsi_d) and (hma_9 < close) and (macd_line > macd_signal) and (psar < close) and rsi_14_keser_35p0_yukari
+T675;(relative_volume > 1.0) and (change_1w_percent < 15.0) and (stoch_k > stoch_d) and (stochrsi_k > stochrsi_d) and (hma_9 < close) and (macd_line > macd_signal) and (psar < close) and rsi_14_keser_40p0_yukari
+T676;(relative_volume > 1.3) and (change_1w_percent < 15.0) and (stoch_k > stoch_d) and (stochrsi_k > stochrsi_d) and (hma_9 < close) and (macd_line > macd_signal) and (psar < close) and rsi_14_keser_45p0_yukari
+T677;(relative_volume > 1.9) and (change_1w_percent < 15.0) and (stoch_k > stoch_d) and (stochrsi_k > stochrsi_d) and (hma_9 < close) and (macd_line > macd_signal) and (psar < close) and rsi_14_keser_50p0_yukari
+T678;(relative_volume > 1.9) and (change_1w_percent < 15.0) and (stoch_k > stoch_d) and (stochrsi_k > stochrsi_d) and (hma_9 < close) and (macd_line > macd_signal) and (psar < close) and rsi_14_keser_55p0_yukari
+T679;(relative_volume > 1.3) and (change_1w_percent < 15.0) and (stoch_k > stoch_d) and (stochrsi_k > stochrsi_d) and (hma_9 < close) and (macd_line > macd_signal) and (psar < close) and rsi_14_keser_60p0_yukari
+T679-65;(relative_volume > 1.0) and (change_1w_percent < 15.0) and (stoch_k > stoch_d) and (stochrsi_k > stochrsi_d) and (hma_9 < close) and (macd_line > macd_signal) and (psar < close) and rsi_14_keser_65p0_yukari
+T680;(relative_volume > 1.0) and (change_1w_percent < 15.0) and (stoch_k > stoch_d) and (stochrsi_k > stochrsi_d) and (hma_9 < close) and (macd_line > macd_signal) and (psar < close) and rsi_14_keser_70p0_yukari
+T680-75;(relative_volume > 1.0) and (change_1w_percent < 15.0) and (stoch_k > stoch_d) and (stochrsi_k > stochrsi_d) and (hma_9 < close) and (macd_line > macd_signal) and (psar < close) and rsi_14_keser_75p0_yukari
+T681;(relative_volume > 1.0) and (change_1w_percent < 15.0) and (stoch_k > stoch_d) and (stochrsi_k > stochrsi_d) and (hma_9 < close) and (macd_line > macd_signal) and (psar < close) and (ichimoku_conversionline > ichimoku_baseline) and rsi_14_keser_20p0_yukari
+T682;(relative_volume > 1.0) and (change_1w_percent < 15.0) and (stoch_k > stoch_d) and (stochrsi_k > stochrsi_d) and (hma_9 < close) and (macd_line > macd_signal) and (psar < close) and (ichimoku_conversionline > ichimoku_baseline) and rsi_14_keser_25p0_yukari
+T683;(relative_volume > 1.0) and (change_1w_percent < 15.0) and (stoch_k > stoch_d) and (stochrsi_k > stochrsi_d) and (hma_9 < close) and (macd_line > macd_signal) and (psar < close) and (ichimoku_conversionline > ichimoku_baseline) and rsi_14_keser_30p0_yukari
+T684;(relative_volume > 1.0) and (change_1w_percent < 15.0) and (stoch_k > stoch_d) and (stochrsi_k > stochrsi_d) and (hma_9 < close) and (macd_line > macd_signal) and (psar < close) and (ichimoku_conversionline > ichimoku_baseline) and rsi_14_keser_35p0_yukari
+T685;(relative_volume > 1.0) and (change_1w_percent < 15.0) and (stoch_k > stoch_d) and (stochrsi_k > stochrsi_d) and (hma_9 < close) and (macd_line > macd_signal) and (psar < close) and (ichimoku_conversionline > ichimoku_baseline) and rsi_14_keser_40p0_yukari
+T686;(relative_volume > 1.0) and (change_1w_percent < 15.0) and (stoch_k > stoch_d) and (stochrsi_k > stochrsi_d) and (hma_9 < close) and (macd_line > macd_signal) and (psar < close) and (ichimoku_conversionline > ichimoku_baseline) and rsi_14_keser_45p0_yukari
+T687;(relative_volume > 1.0) and (change_1w_percent < 15.0) and (stoch_k > stoch_d) and (stochrsi_k > stochrsi_d) and (hma_9 < close) and (macd_line > macd_signal) and (psar < close) and (ichimoku_conversionline > ichimoku_baseline) and rsi_14_keser_50p0_yukari
+T688;(relative_volume > 1.0) and (change_1w_percent < 15.0) and (stoch_k > stoch_d) and (stochrsi_k > stochrsi_d) and (hma_9 < close) and (macd_line > macd_signal) and (psar < close) and (ichimoku_conversionline > ichimoku_baseline) and rsi_14_keser_55p0_yukari
+T689;(relative_volume > 1.0) and (change_1w_percent < 15.0) and (stoch_k > stoch_d) and (stochrsi_k > stochrsi_d) and (hma_9 < close) and (macd_line > macd_signal) and (psar < close) and (ichimoku_conversionline > ichimoku_baseline) and rsi_14_keser_60p0_yukari
+T689-65;(relative_volume > 1.0) and (change_1w_percent < 15.0) and (stoch_k > stoch_d) and (stochrsi_k > stochrsi_d) and (hma_9 < close) and (macd_line > macd_signal) and (psar < close) and (ichimoku_conversionline > ichimoku_baseline) and rsi_14_keser_65p0_yukari
+T690;(relative_volume > 1.0) and (change_1w_percent < 15.0) and (stoch_k > stoch_d) and (stochrsi_k > stochrsi_d) and (hma_9 < close) and (macd_line > macd_signal) and (psar < close) and (ichimoku_conversionline > ichimoku_baseline) and rsi_14_keser_70p0_yukari
+T690-75;(relative_volume > 1.0) and (change_1w_percent < 15.0) and (stoch_k > stoch_d) and (stochrsi_k > stochrsi_d) and (hma_9 < close) and (macd_line > macd_signal) and (psar < close) and (ichimoku_conversionline > ichimoku_baseline) and rsi_14_keser_75p0_yukari
+T691;(relative_volume > 1.0) and (change_1w_percent < 15.0) and stoch_k_keser_stoch_d_yukari and stochrsi_k_keser_stochrsi_d_yukari and hma_9_keser_close_asagi and macd_line_keser_macd_signal_yukari and psar_keser_close_asagi and (rsi_14 < 70.0)
+T701;(relative_volume > 1.3) and (change_1w_percent < 15.0) and (rsi_14 < 75.0) and ema_5_keser_close_asagi and ema_10_keser_close_asagi and ema_20_keser_close_asagi and sma_5_keser_close_asagi and sma_10_keser_close_asagi and sma_20_keser_close_asagi
+T702;(relative_volume > 1.3) and (change_1w_percent < 15.0) and (rsi_14 < 75.0) and ema_30_keser_close_asagi and ema_50_keser_close_asagi and sma_30_keser_close_asagi and sma_50_keser_close_asagi
+T703;(relative_volume > 1.3) and (change_1w_percent < 15.0) and (rsi_14 < 75.0) and ema_100_keser_close_asagi and ema_200_keser_close_asagi and sma_100_keser_close_asagi and sma_200_keser_close_asagi
+T704;(relative_volume > 1.3) and (change_1w_percent < 15.0) and (rsi_14 < 75.0) and (ema_5 < close) and (ema_10 < close) and (ema_20 < close) and (ema_30 < close) and (ema_50 < close) and (ema_100 < close) and (ema_200 < close) and (sma_5 < close) and (sma_10 < close) and (sma_20 < close) and (sma_30 < close) and (sma_50 < close) and (sma_100 < close) and (sma_200 < close) and stoch_k_keser_stoch_d_yukari and stochrsi_k_keser_stochrsi_d_yukari
+T705;(relative_volume > 1.3) and (change_1w_percent < 15.0) and (rsi_14 < 75.0) and (ema_5 < close) and (ema_10 < close) and (ema_20 < close) and (ema_30 < close) and (ema_50 < close) and (ema_100 < close) and (ema_200 < close) and (sma_5 < close) and (sma_10 < close) and (sma_20 < close) and (sma_30 < close) and (sma_50 < close) and (sma_100 < close) and (sma_200 < close) and macd_line_keser_macd_signal_yukari
+T706;(relative_volume > 1.3) and (change_1w_percent < 15.0) and (rsi_14 < 75.0) and (ema_5 < close) and (ema_10 < close) and (ema_20 < close) and (ema_30 < close) and (ema_50 < close) and (ema_100 < close) and (ema_200 < close) and (sma_5 < close) and (sma_10 < close) and (sma_20 < close) and (sma_30 < close) and (sma_50 < close) and (sma_100 < close) and (sma_200 < close) and psar_keser_close_asagi
+T707;(relative_volume > 1.3) and (change_1w_percent < 15.0) and (rsi_14 < 75.0) and (ema_5 < close) and (ema_10 < close) and (ema_20 < close) and (ema_30 < close) and (ema_50 < close) and (ema_100 < close) and (ema_200 < close) and (sma_5 < close) and (sma_10 < close) and (sma_20 < close) and (sma_30 < close) and (sma_50 < close) and (sma_100 < close) and (sma_200 < close) and hma_9_keser_close_asagi
+T708;(relative_volume > 1.3) and (change_1w_percent < 15.0) and (rsi_14 < 75.0) and (ema_5 < close) and (ema_10 < close) and (ema_20 < close) and (ema_30 < close) and (ema_50 < close) and (ema_100 < close) and (ema_200 < close) and (sma_5 < close) and (sma_10 < close) and (sma_20 < close) and (sma_30 < close) and (sma_50 < close) and (sma_100 < close) and (sma_200 < close) and (hma_9 < close) and (stoch_k > stoch_d) and (macd_line > macd_signal) and (psar < close) and (stochrsi_k > stochrsi_d) and (ichimoku_conversionline > ichimoku_baseline)
+T709;(relative_volume > 1.3) and (change_1w_percent < 15.0) and (rsi_14 < 75.0) and ema_5_keser_close_asagi and ema_10_keser_close_asagi and ema_20_keser_close_asagi and sma_5_keser_close_asagi and sma_10_keser_close_asagi and sma_20_keser_close_asagi and stoch_k_keser_stoch_d_yukari and stochrsi_k_keser_stochrsi_d_yukari
+T710;(relative_volume > 1.3) and (change_1w_percent < 15.0) and (rsi_14 < 75.0) and ema_5_keser_close_asagi and ema_10_keser_close_asagi and ema_20_keser_close_asagi and sma_5_keser_close_asagi and sma_10_keser_close_asagi and sma_20_keser_close_asagi and macd_line_keser_macd_signal_yukari
+T711;(relative_volume > 1.3) and (change_1w_percent < 15.0) and (rsi_14 < 75.0) and ema_5_keser_close_asagi and ema_10_keser_close_asagi and ema_20_keser_close_asagi and sma_5_keser_close_asagi and sma_10_keser_close_asagi and sma_20_keser_close_asagi and psar_keser_close_asagi
+T712;(relative_volume > 1.3) and (change_1w_percent < 15.0) and (rsi_14 < 75.0) and ema_5_keser_close_asagi and ema_10_keser_close_asagi and ema_20_keser_close_asagi and sma_5_keser_close_asagi and sma_10_keser_close_asagi and sma_20_keser_close_asagi and hma_9_keser_close_asagi
+T713;(relative_volume > 1.3) and (change_1w_percent < 15.0) and (rsi_14 < 75.0) and ema_20_keser_close_asagi and ema_30_keser_close_asagi and sma_20_keser_close_asagi and sma_30_keser_close_asagi and stoch_k_keser_stoch_d_yukari and stochrsi_k_keser_stochrsi_d_yukari
+T714;(relative_volume > 1.3) and (change_1w_percent < 15.0) and (rsi_14 < 75.0) and ema_20_keser_close_asagi and ema_30_keser_close_asagi and sma_20_keser_close_asagi and sma_30_keser_close_asagi and stoch_k_keser_stoch_d_yukari and macd_line_keser_macd_signal_yukari
+T715;(relative_volume > 1.3) and (change_1w_percent < 15.0) and (rsi_14 < 75.0) and ema_20_keser_close_asagi and ema_30_keser_close_asagi and sma_20_keser_close_asagi and sma_30_keser_close_asagi and stoch_k_keser_stoch_d_yukari and psar_keser_close_asagi
+T716;(relative_volume > 1.3) and (change_1w_percent < 15.0) and (rsi_14 < 75.0) and ema_20_keser_close_asagi and ema_30_keser_close_asagi and sma_20_keser_close_asagi and sma_30_keser_close_asagi and stoch_k_keser_stoch_d_yukari and hma_9_keser_close_asagi
+T717;(relative_volume > 1.3) and (change_1w_percent < 15.0) and (rsi_14 < 75.0) and sma_200_keser_close_asagi and stoch_k_keser_stoch_d_yukari and stochrsi_k_keser_stochrsi_d_yukari and (macd_line > macd_signal) and (psar < close) and (hma_9 < close)
+T718;(relative_volume > 1.3) and (change_1w_percent < 15.0) and (rsi_14 < 75.0) and sma_100_keser_close_asagi and stoch_k_keser_stoch_d_yukari and stochrsi_k_keser_stochrsi_d_yukari and (macd_line > macd_signal) and (psar < close) and (hma_9 < close)
+T719;(relative_volume > 1.5) and (change_1w_percent < 15.0) and (rsi_14 < 75.0) and sma_50_keser_close_asagi and stoch_k_keser_stoch_d_yukari and stochrsi_k_keser_stochrsi_d_yukari and (macd_line > macd_signal) and (psar < close) and (hma_9 < close)
+T720;(relative_volume > 1.6) and (change_1w_percent < 15.0) and (rsi_14 < 75.0) and sma_30_keser_close_asagi and stoch_k_keser_stoch_d_yukari and stochrsi_k_keser_stochrsi_d_yukari and (macd_line > macd_signal) and (psar < close) and (hma_9 < close)
+T721;(relative_volume > 1.7) and (change_1w_percent < 15.0) and (rsi_14 < 75.0) and sma_20_keser_close_asagi and stoch_k_keser_stoch_d_yukari and stochrsi_k_keser_stochrsi_d_yukari and (macd_line > macd_signal) and (psar < close) and (hma_9 < close)
+T722;(relative_volume > 1.7) and (change_1w_percent < 15.0) and (rsi_14 < 75.0) and sma_5_keser_close_asagi and sma_10_keser_close_asagi and stoch_k_keser_stoch_d_yukari and stochrsi_k_keser_stochrsi_d_yukari and (macd_line > macd_signal) and (psar < close) and (hma_9 < close)
+T801;(relative_volume > 1.0) and (change_1w_percent < 15.0) and positivedirectionalindicator_14_keser_negativedirectionalindicator_14_yukari and rsi_14_keser_20p0_yukari
+T802;(relative_volume > 1.0) and (change_1w_percent < 15.0) and positivedirectionalindicator_14_keser_negativedirectionalindicator_14_yukari and rsi_14_keser_25p0_yukari
+T803;(relative_volume > 1.0) and (change_1w_percent < 15.0) and positivedirectionalindicator_14_keser_negativedirectionalindicator_14_yukari and rsi_14_keser_30p0_yukari
+T804;(relative_volume > 1.3) and (change_1w_percent < 15.0) and positivedirectionalindicator_14_keser_negativedirectionalindicator_14_yukari and rsi_14_keser_35p0_yukari
+T805;(relative_volume > 1.3) and (change_1w_percent < 15.0) and positivedirectionalindicator_14_keser_negativedirectionalindicator_14_yukari and rsi_14_keser_40p0_yukari
+T806;(relative_volume > 1.3) and (change_1w_percent < 15.0) and positivedirectionalindicator_14_keser_negativedirectionalindicator_14_yukari and rsi_14_keser_45p0_yukari
+T807;(relative_volume > 1.3) and (change_1w_percent < 15.0) and positivedirectionalindicator_14_keser_negativedirectionalindicator_14_yukari and rsi_14_keser_50p0_yukari
+T808;(relative_volume > 1.0) and (change_1w_percent < 15.0) and positivedirectionalindicator_14_keser_negativedirectionalindicator_14_yukari and rsi_14_keser_55p0_yukari
+T809;(relative_volume > 1.0) and (change_1w_percent < 15.0) and positivedirectionalindicator_14_keser_negativedirectionalindicator_14_yukari and rsi_14_keser_60p0_yukari
+T809-65;(relative_volume > 1.0) and (change_1w_percent < 15.0) and positivedirectionalindicator_14_keser_negativedirectionalindicator_14_yukari and rsi_14_keser_65p0_yukari
+T810;(relative_volume > 1.0) and (change_1w_percent < 15.0) and positivedirectionalindicator_14_keser_negativedirectionalindicator_14_yukari and rsi_14_keser_70p0_yukari
+T810-75;(relative_volume > 1.0) and (change_1w_percent < 15.0) and positivedirectionalindicator_14_keser_negativedirectionalindicator_14_yukari and rsi_14_keser_75p0_yukari
+T811;(relative_volume > 1.5) and (change_1w_percent < 15.0) and stoch_k_keser_stoch_d_yukari and stochrsi_k_keser_stochrsi_d_yukari and hma_9_keser_close_asagi
+T812;(relative_volume > 1.5) and (change_1w_percent < 15.0) and stoch_k_keser_stoch_d_yukari and stochrsi_k_keser_stochrsi_d_yukari and hma_9_keser_close_asagi and close_keser_sma_200_yukari
+T813;(relative_volume > 1.3) and (change_1w_percent < 15.0) and sma_5_keser_close_asagi and sma_10_keser_close_asagi and sma_20_keser_close_asagi and stoch_k_keser_stoch_d_yukari and stochrsi_k_keser_stochrsi_d_yukari and hma_9_keser_close_asagi
+T814;(relative_volume > 1.3) and (change_1w_percent < 15.0) and ema_5_keser_close_asagi and ema_10_keser_close_asagi and ema_20_keser_close_asagi and sma_5_keser_close_asagi and sma_10_keser_close_asagi and sma_20_keser_close_asagi and stoch_k_keser_stoch_d_yukari and stochrsi_k_keser_stochrsi_d_yukari and hma_9_keser_close_asagi
+T815;(relative_volume > 1.3) and (change_1w_percent < 15.0) and (sma_5 < close) and (sma_10 < close) and (sma_20 < close) and (sma_30 < close) and (sma_50 < close) and (sma_100 < close) and (sma_200 < close) and stoch_k_keser_stoch_d_yukari and stochrsi_k_keser_stochrsi_d_yukari and hma_9_keser_close_asagi
+T816;(relative_volume > 1.3) and (change_1w_percent < 15.0) and (sma_5 < close) and (sma_10 < close) and (sma_20 < close) and (sma_30 < close) and (sma_50 < close) and (sma_100 < close) and (sma_200 < close) and stoch_k_keser_stoch_d_yukari and stochrsi_k_keser_stochrsi_d_yukari and hma_9_keser_close_asagi and (ema_5 < close) and (ema_10 < close) and (ema_20 < close) and (ema_30 < close) and (ema_50 < close) and (ema_100 < close) and (ema_200 < close)

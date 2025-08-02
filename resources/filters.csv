@@ -1,0 +1,4 @@
+expr
+rsi_14 >= 45
+adx_14 >= 20
+macd_line > macd_signal

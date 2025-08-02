@@ -1,0 +1,17 @@
+{
+  "paths": {
+    "output_dir": "/content/sonuclar",
+    "logs_dir": "/content/logs"
+  },
+  "data": {
+    "csv_15": "/content/data/15.csv",
+    "parquet_indicators": "/content/data/indicators-parquet.parquet"
+  },
+  "excel": {
+    "range_filename_pattern": "Tarama_{start}_{end}.xlsx"
+  },
+  "args": {
+    "commission_bps": 10,
+    "slippage_bps": 0
+  }
+}
